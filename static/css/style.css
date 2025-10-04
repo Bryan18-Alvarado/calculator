@@ -13,7 +13,7 @@ body {
 
 .calculator {
   background-color: black;
-  padding: 20px;
+  padding: 30px;
   border-radius: 15px;
 }
 
@@ -47,4 +47,13 @@ body {
 .button:hover {
   background-color: rgb(155, 7, 7);
   color: white;
+}
+
+#delete {
+  background-color: rgba(162, 9, 9, 0.743);
+  color: white;
+}
+
+#delete:hover {
+  background-color: rgb(203, 203, 8);
 }

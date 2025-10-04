@@ -17,7 +17,7 @@ function deleteInfoScreen() {
 function evaluateInfoScreen() {
   try {
     screen_calculator.textContent = eval(
-      screen_calculator.textContent.replace("X", "*")
+      screen_calculator.textContent.replace("x", "*")
     );
   } catch (error) {
     screen_calculator.textContent = "SINTAX ERROR";
